@@ -47,7 +47,22 @@ The goal is to identify patterns in student data and predict performance outcome
 
 ---
 
+## 📂 Project Structure
+
+```
+Machine-Learning/
+│
+├── student_performance_prediction.ipynb   # Main notebook containing EDA, preprocessing, model training and evaluation
+├── student_data.csv                       # Dataset used for training and analysis
+├── requirements.txt                       # Python dependencies
+└── README.md                              # Project documentation
+```
+
+---
+
 ##  Future Improvements
+- Implementing RF Model 
+- Comparing it with Linear Regression
 - Hyperparameter tuning
 - Cross-validation
 - Deploy as a web application
